@@ -1,0 +1,183 @@
+@font-face {
+    font-family: lexand;
+    src: url(fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: big;
+    src: url(fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main * {
+    padding: 0 .7vw;
+    flex-basis: 15%;
+}
+
+/* FIRST PART */
+
+.first-img {
+    margin: 1vw .7vw -.5vw;
+}
+
+.first {
+    max-width: calc(65% / 3);
+    height: 40%;
+    background-color:  hsl(31, 77%, 52%);
+    color: white;
+    border-radius: 3px 0 0 3px;
+}
+
+.sedans {
+    font-size: 3.5rem;
+    font-family: big;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 2rem;
+}
+
+.sedans-p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: lexand;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button1-div {
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.button1 {
+    padding: 5% 10%;
+    outline: none;
+    font-weight: 700;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 40px;
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    transition: .3s;
+}
+
+.button1:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/* SECOND PART  */
+
+.second-img {
+    margin: 1vw .7vw -.5vw;
+}
+
+.second {
+    max-width: calc(65% / 3);
+    height: 40%;
+    background-color:  hsl(184, 100%, 22%);
+    color: white;
+}
+
+.suvs {
+    font-size: 3.5rem;
+    font-family: big;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 2rem;
+}
+
+.suvs-psecond {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: lexand;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button1-divsecond {
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.button1second {
+    padding: 5% 10%;
+    outline: none;
+    font-weight: 700;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 40px;
+    color: hsl(184, 100%, 22%);
+    background-color: white;
+    transition: .3s;
+}
+
+.button1second:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/* THIRD PART */
+
+.third-img {
+    margin: 1vw .7vw -.5vw;
+}
+
+.third {
+    max-width: calc(65% / 3);
+    height: 40%;
+    background-color:  hsl(179, 100%, 13%);
+    color: white;
+    border-radius: 0 4px 4px 0;
+}
+
+.luxury {
+    font-size: 3.5rem;
+    font-family: big;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 2rem;
+}
+
+.luxury-pthird {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: lexand;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button1-divthird {
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+.button1third {
+    padding: 5% 10%;
+    outline: none;
+    font-weight: 700;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 40px;
+    color: hsl(179, 100%, 13%);
+    background-color: white;
+    transition: .3s;
+}
+
+.button1third:hover {
+    background-color: transparent;
+    color: white;
+}
+
